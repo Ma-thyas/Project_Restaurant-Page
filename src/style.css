@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./img-font/ProtestRiot-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+:root {
+    background-size: cover;
+    height: 100%;
+    background-color: rgb(248, 245, 245) ;
+    font-family: 'MyFont';
+}
+
+body {
+    margin: 0;
+    position:relative;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: center;
+    gap: 3vh;
+    padding: 0 10vh;
+    
+}
+
+.btn-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(75, 31, 146);
+    font-family: 'MyFont';
+    letter-spacing: .15rem;
+    font-size: 2vh;
+    font-weight: 600;
+    height: 5vh;
+    width: auto;
+    border: none;
+    background-color: rgb(248, 245, 245);
+}
+
+.btn-nav:hover {
+    cursor: pointer;
+}
+
+/* home Page */
+.backgroundImg {
+    display: block;
+    height: 80vh;
+    width: 100%;
+    opacity: 80%;
+}
+
+.title {
+    position: absolute;
+    font-weight: 400;
+    font-size: 18vh;
+    letter-spacing: .4rem;
+    text-shadow: 2px 0 rgb(250, 250, 246), -2px 0 rgb(250, 250, 246), 0 2px rgb(250, 250, 246), 0 -2px rgb(250, 250, 246), 1px 1px rgb(250, 250, 246), -1px -1px rgb(250, 250, 246), -1px 1px rgb(250, 250, 246), 1px -1px rgb(250, 250, 246);
+    top: 22%;
+    left: 32%;
+}
+
+.title2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 4vh;
+    letter-spacing: .15rem;
+    text-shadow: 2px 0 rgb(250, 250, 246), -2px 0 rgb(250, 250, 246), 0 2px rgb(250, 250, 246), 0 -2px rgb(250, 250, 246), 1px 1px rgb(250, 250, 246), -1px -1px rgb(250, 250, 246), -1px 1px rgb(250, 250, 246), 1px -1px rgb(250, 250, 246);
+    top: 47%;
+    left: 31%;
+}
+
+.credit-home {
+    position: absolute;
+    font-size: 2vh;
+    top: 85%;
+    left: 78%;
+    color: rgb(8, 1, 19,0.6);
+    word-wrap: break-word;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;
+    gap: 3vh;
+    font-size: 2.5vh;
+    padding: 0 10vh;
+    background-color: rgb(248, 245, 245) ;
+
+}
+
+.follow {
+    display: flex;
+    height: 4vh;
+    gap: 3vh;
+}
+
+/* menu */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourMenuTitle {
+    color: rgb(76, 31, 147);
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+.menuContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
+    justify-items: stretch;
+    padding: 0 10rem;
+    padding-top: 2rem;
+    margin-bottom: 8vh;
+}
+
+
+.courseTitle {
+    color: rgb(102, 147, 31);
+    font-size: 2.5h;
+    font-weight: 600;
+}
+
+
+.menuItem {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 1.5rem;
+    column-gap: 2rem;
+}
+
+
+.foodName {
+    grid-column: 1/2;
+    margin: 0;
+    align-self: self-end;
+    font-size: 2vh;
+}
+
+.foodDescription {
+    grid-column: 1/2;
+    grid-row: 2;
+    margin: 0;
+    align-self: self-start;
+    font-size: 1.5vh;
+}
+
+.foodPrice {
+    grid-column: 2/3;
+    align-self: self-end;
+    justify-self: flex-end;
+    margin: 0;
+
+}
+
+/* restaurant */
+
+.restaurant-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vh 10vh 0 10vh;
+    padding-bottom: 8vh;
+}
+
+.restoImg {
+    height: 70vh;
+    width: auto;
+}
+
+.description {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 2vh;
+    padding: 4vh 0;
+    margin: 0;
+}
+
+.credit-restaurant {
+    text-align: right;
+    color: rgb(8, 1, 19,0.6);
+    font-size: 1.2vh;
+}
+
+
+/* reservation */
+
+.reservation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vh 10vh 0 10vh;
+
+}
+
+.map-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.map-img {
+    width: 70%;
+    height: auto;
+    border-radius: 5vh;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8vh;
+    margin-bottom: 8vh;
+
+}
+
+.info-title {
+    font-size: 2.5vh;
+}
+
+.contact-text {
+    white-space: pre-line;
+}
+
+.time {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 4rem;
+    grid-row-gap: 1rem;
+}
+
+.day {
+    grid-column: 1/2;
+    margin: 0;
+    font-weight: 200;
+    align-self: self-end;
+    font-size: 2vh;
+}
+
+.hour {
+    grid-column: 2/3;
+    margin: 0;
+    align-self: self-end;
+    font-size: 2vh;
+}
+
+
+.contact-form {
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-input {
+    width: auto;
+    padding: 0.2rem;
+    border: solid 2px rgb(75, 31, 146, 0.5);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.contact-button {
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 4px;
+    color: rgb(248, 245, 245);
+    background-color: rgb(75, 31, 146);
+    font-family: inherit;
+}
+
+
+
