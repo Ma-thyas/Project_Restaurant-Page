@@ -14,8 +14,7 @@
 
 body {
     margin: 0;
-    position:relative;
-    
+    position:relative; 
 }
 
 .navbar{
@@ -24,8 +23,7 @@ body {
     height: 10vh;
     justify-content: center;
     gap: 3vh;
-    padding: 0 10vh;
-    
+    padding: 0 10vh;   
 }
 
 .btn-nav {
@@ -35,7 +33,7 @@ body {
     color: rgb(75, 31, 146);
     font-family: 'MyFont';
     letter-spacing: .15rem;
-    font-size: 5vh;
+    font-size: 2.5vh;
     font-weight: 600;
     height: 2.5vh;
     width: auto;
@@ -77,9 +75,9 @@ body {
 
 .credit-home {
     position: absolute;
-    font-size: 2vh;
-    top: 85%;
-    left: 78%;
+    font-size: 1.5vh;
+    top: 86%;
+    left: 80%;
     color: rgb(8, 1, 19,0.6);
     word-wrap: break-word;
 }
@@ -166,7 +164,6 @@ body {
     align-self: self-end;
     justify-self: flex-end;
     margin: 0;
-
 }
 
 /* restaurant */
@@ -175,7 +172,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4vh 10vh 0 10vh;
+    margin: 0 10vh 0 10vh;
     padding-bottom: 8vh;
 }
 
@@ -205,7 +202,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4vh 10vh 0 10vh;
+    margin: 1.5vh 10vh 0 10vh;
 
 }
 

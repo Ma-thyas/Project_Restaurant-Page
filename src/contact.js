@@ -15,10 +15,6 @@ const createContactPage = () => {
     mapImg.src = map;
     mapImg.classList.add('map-img');
 
-    // const adress = document.createElement('p');
-    // adress.classList.add('adress');
-    // adress.textContent = '1 Newtown, Bradford-on-Avon, BA15 1NQ';
-
 //info div
     const infoDiv = document.createElement('div');
     infoDiv.classList.add('info-div');
@@ -194,9 +190,7 @@ const createContactPage = () => {
     contactButtonInput.setAttribute('type','submit');
     contactButtonInput.textContent = "Send";   
 
-    // contactButton.appendChild(contactButtonLabel);
     contactButton.appendChild(contactButtonInput);
-
 
     contactForm.appendChild(formName);
     contactForm.appendChild(formEmail);
@@ -205,11 +199,8 @@ const createContactPage = () => {
     contactForm.appendChild(formMessage);
     contactForm.appendChild(contactButton);
 
-
-
     mapDiv.appendChild(mapImg);
     
-
     reservationInfo.appendChild(reservationTitle);
     reservationInfo.appendChild(contactForm);
 
